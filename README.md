@@ -1,2 +1,5 @@
 # coding-challenge-megapack
-Solving interesting coding challenges for fun, maintaining touch with code and practicing C# at the same time
+In t his project I'll be solving interesting coding challenges for fun, for maintaining touch with coding and practicing C# at the same time.
+
+## Coding challenges:
+1. under cnstruction.
