@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pi8UUI20x9uDXI9MClcOXkEgO5FctsTaXL5O2Pe80jTfETRh9x859d29i+MG8KxQaflpZJAMj1Sd3rC292zwKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\valor\\Source\\Repos\\coding-challenge-megapack\\Coding callenge megapack\\Coding callenge megapack\\Coding callenge megapack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\valor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\valor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

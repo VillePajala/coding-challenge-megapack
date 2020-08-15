@@ -6,7 +6,7 @@ namespace Coding_callenge_megapack
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! Oh yeah!");
+            Console.WriteLine("Hello World! Oh yeah, oh yeah!");
         }
     }
 }
