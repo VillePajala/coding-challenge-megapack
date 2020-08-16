@@ -1,0 +1,9 @@
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\ConvertNumbersToRomanNumerals\bin\Debug\netstandard2.0\ConvertNumbersToRomanNumerals.deps.json
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\ConvertNumbersToRomanNumerals\bin\Debug\netstandard2.0\ConvertNumbersToRomanNumerals.dll
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\ConvertNumbersToRomanNumerals\bin\Debug\netstandard2.0\ConvertNumbersToRomanNumerals.pdb
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\ConvertNumbersToRomanNumerals\obj\Debug\netstandard2.0\ConvertNumbersToRomanNumerals.csprojAssemblyReference.cache
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\ConvertNumbersToRomanNumerals\obj\Debug\netstandard2.0\ConvertNumbersToRomanNumerals.AssemblyInfoInputs.cache
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\ConvertNumbersToRomanNumerals\obj\Debug\netstandard2.0\ConvertNumbersToRomanNumerals.AssemblyInfo.cs
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\ConvertNumbersToRomanNumerals\obj\Debug\netstandard2.0\ConvertNumbersToRomanNumerals.csproj.CoreCompileInputs.cache
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\ConvertNumbersToRomanNumerals\obj\Debug\netstandard2.0\ConvertNumbersToRomanNumerals.dll
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\ConvertNumbersToRomanNumerals\obj\Debug\netstandard2.0\ConvertNumbersToRomanNumerals.pdb

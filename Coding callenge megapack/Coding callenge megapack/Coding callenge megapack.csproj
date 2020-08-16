@@ -6,4 +6,8 @@
     <RootNamespace>Coding_callenge_megapack</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ConvertNumbersToRomanNumerals\ConvertNumbersToRomanNumerals.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.0": {
       "Coding callenge megapack/1.0.0": {
+        "dependencies": {
+          "ConvertNumbersToRomanNumerals": "1.0.0"
+        },
         "runtime": {
           "Coding callenge megapack.dll": {}
+        }
+      },
+      "ConvertNumbersToRomanNumerals/1.0.0": {
+        "runtime": {
+          "ConvertNumbersToRomanNumerals.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Coding callenge megapack/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConvertNumbersToRomanNumerals/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

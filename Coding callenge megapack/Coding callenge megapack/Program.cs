@@ -1,4 +1,5 @@
 ﻿using System;
+using ConvertNumbersToRomanNumerals;
 
 namespace Coding_callenge_megapack
 {
@@ -10,10 +11,9 @@ namespace Coding_callenge_megapack
             String challengeNumber;
 
             Console.WriteLine("Welcome to Coding challenge megapack!");
-            Console.WriteLine("");
             Console.WriteLine("Type the number of the challenge you want to try out");
             Console.WriteLine("");
-            Console.WriteLine("Convert numbers to roman numerals: 1s");
+            Console.WriteLine("Convert numbers to roman numerals: 1");
             challengeNumber = Console.ReadLine();
 
             RunChallenge(challengeNumber);
@@ -21,7 +21,15 @@ namespace Coding_callenge_megapack
 
         public static void RunChallenge(string challengeSelected)
         {
-            Console.WriteLine(challengeSelected);
+            switch (challengeSelected)
+            {
+                case "1":
+                    ConvertNumbersToRomanNumerals.ConvertNumbersToRomanNumerals.ConvertNumberToRomanNumerals(challengeSelected);
+                    ChooseChallenge();
+                    break;
+                default:
+                    break;
+            }
         }
     }
 

@@ -11,3 +11,6 @@ C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\C
 C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.dll
 C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.pdb
 C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.genruntimeconfig.cache
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\bin\Debug\netcoreapp3.0\ConvertNumbersToRomanNumerals.dll
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\bin\Debug\netcoreapp3.0\ConvertNumbersToRomanNumerals.pdb
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.csproj.CopyComplete
