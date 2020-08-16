@@ -1,5 +1,5 @@
-# coding-challenge-megapack
-In t his project I'll be solving interesting coding challenges for fun, for maintaining touch with coding and practicing C# at the same time.
+# coding challenge megapack
+A simple .NET console app for solving interesting coding challenges for fun, for maintaining the touch with coding, practicing C# and getting falimiar with the visual studio IDE.
 
 ## Coding challenges:
-1. under construction.
+1. Numberts to roman numerals converter
