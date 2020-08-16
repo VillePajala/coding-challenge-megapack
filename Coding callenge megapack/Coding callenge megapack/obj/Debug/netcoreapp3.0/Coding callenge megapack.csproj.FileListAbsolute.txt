@@ -1,0 +1,13 @@
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\bin\Debug\netcoreapp3.0\Coding callenge megapack.exe
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\bin\Debug\netcoreapp3.0\Coding callenge megapack.deps.json
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\bin\Debug\netcoreapp3.0\Coding callenge megapack.runtimeconfig.json
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\bin\Debug\netcoreapp3.0\Coding callenge megapack.runtimeconfig.dev.json
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\bin\Debug\netcoreapp3.0\Coding callenge megapack.dll
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\bin\Debug\netcoreapp3.0\Coding callenge megapack.pdb
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.csprojAssemblyReference.cache
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.AssemblyInfoInputs.cache
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.AssemblyInfo.cs
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.csproj.CoreCompileInputs.cache
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.dll
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.pdb
+C:\Users\valor\Source\Repos\coding-challenge-megapack\Coding callenge megapack\Coding callenge megapack\obj\Debug\netcoreapp3.0\Coding callenge megapack.genruntimeconfig.cache
