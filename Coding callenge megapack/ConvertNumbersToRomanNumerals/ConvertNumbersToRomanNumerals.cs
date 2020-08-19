@@ -28,42 +28,34 @@ namespace ConvertNumbersToRomanNumerals
 
         public static void convertInput(int inputNumber)
         {
-            
+            Dictionary<String, Int32> romanNumeralDict = new Dictionary<String, Int32>();
+            romanNumeralDict.Add("M", inputNumber / 1000); 
+            romanNumeralDict.Add("D", (inputNumber % 1000) / 500);
+            romanNumeralDict.Add("C", ((inputNumber % 1000) % 500) / 100);
+            romanNumeralDict.Add("X", (((inputNumber % 1000) % 500) % 100) / 10);
+            romanNumeralDict.Add("V", ((((inputNumber % 1000) % 500) % 100) % 10) / 5);
+            romanNumeralDict.Add("IV", (((((inputNumber % 1000) % 500) % 100) % 10) % 5) / 4);
+            romanNumeralDict.Add("I", ((((((inputNumber % 1000) % 500) % 100) % 10) % 5) % 4) / 1);
 
-            string romanNumeralOutput = "";
-
-            int thousandscount = inputNumber / 1000;
-            int fivehundredscount = (inputNumber % 1000) / 500;
-            int hundredscount = ((inputNumber % 1000) % 500) / 100;
-            int tensCount = (((inputNumber % 1000) % 500) % 100) / 10;
-            int fivesCount = ((((inputNumber % 1000) % 500) % 100) % 10) / 5;
-            int onesCount = ((((inputNumber % 1000) % 500) % 100) % 10) & 5;
-
-            Dictionary<String, Int32> romanNumeralDict = new Dictionary<String, Int32>()
-            romanNumeralDict.Add("M", thousandscount); 
-            romanNumeralDict.Add("D", fivehundredscount);
-            romanNumeralDict.Add("C", hundredscount);
-            romanNumeralDict.Add("X", tensCount);
-            romanNumeralDict.Add("V", fivesCount);
-            if (onesCount == 4) romanNumeralDict.Add("IV", 1); 
-            else romanNumeralDict.Add("I", onesCount);
-
-
-
-            foreach (KeyValuePair<String, Int32> romanNumeralAndTimes in romanNumeralDict)
-            {
-                romanNumeralOutput = romanNumeralOutput + addRomanNumeralString(romanNumeralAndTimes.Key, romanNumeralAndTimes.Value);
-                
-            }
+            string romanNumeralOutput = constructRomanNumeralString(romanNumeralDict);
             Console.WriteLine("The result of the conversion: " + romanNumeralOutput);
         }
 
+        public static string constructRomanNumeralString(Dictionary<String, Int32> romanNumeralDict)
+        {
+            string romanNumeralOutput = "";
+            foreach (KeyValuePair<String, Int32> romanNumeralAndTimes in romanNumeralDict)
+            {
+                romanNumeralOutput = romanNumeralOutput + addRomanNumeralString(romanNumeralAndTimes.Key, romanNumeralAndTimes.Value);
+            }
+            return romanNumeralOutput;
+        }
 
-            public static string addRomanNumeralString(string romanNumeralCharacter, int timesTheCharacterwillBeAdded)
+        public static string addRomanNumeralString(string romanNumeralCharacter, int timesTheCharacterwillBeAdded)
         {
             int loopCount = 0;
             string romanNumeralString = "";
-            while(loopCount < timesTheCharacterwillBeAdded)
+            while (loopCount < timesTheCharacterwillBeAdded)
             {
                 romanNumeralString = romanNumeralString + romanNumeralCharacter;
                 loopCount = loopCount + 1;
