@@ -9,13 +9,9 @@ namespace Coding_callenge_megapack
         public static void ChooseChallenge()
         {
             String challengeNumber;
-
-            Console.WriteLine("Welcome to Coding challenge megapack!");
-            Console.WriteLine("Type the number of the challenge you want to try out");
-            Console.WriteLine("");
+            Console.WriteLine("Type the number of the challenge you want to try out" + Environment.NewLine);
             Console.WriteLine("Convert numbers to roman numerals: 1");
             challengeNumber = Console.ReadLine();
-
             RunChallenge(challengeNumber);
         }
 

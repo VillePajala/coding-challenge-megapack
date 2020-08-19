@@ -5,28 +5,25 @@ namespace ConvertNumbersToRomanNumerals
 {
     public class ConvertNumbersToRomanNumerals
     {
-        public static void ConvertNumberToRomanNumerals(string challengeSelected)
+        public static void ConvertNumberToRomanNumerals(string challengeSelected) 
         {
             Console.WriteLine("Welcome trying out the converting of numbers to Roman numerals!");
             askUserForNumberToConvert();
         }
 
-        public static void askUserForNumberToConvert()
+        public static void askUserForNumberToConvert() 
         {
             int inputNumber;
-            try
-            {
+            try {
                 Console.WriteLine("Type in the number you would like to convert");
-                convertInput(inputNumber = Convert.ToInt32(Console.ReadLine()));
-            }
-            catch
-            {
+                convertInputToDictionary(inputNumber = Convert.ToInt32(Console.ReadLine()));
+            } catch {
                 Console.WriteLine("Something went wrong. Make sure to input a NUMBER");
                 askUserForNumberToConvert();
             }
         }
 
-        public static void convertInput(int inputNumber)
+        public static void convertInputToDictionary(int inputNumber) 
         {
             Dictionary<String, Int32> romanNumeralDict = new Dictionary<String, Int32>();
             romanNumeralDict.Add("M", inputNumber / 1000); 
@@ -39,28 +36,35 @@ namespace ConvertNumbersToRomanNumerals
 
             string romanNumeralOutput = constructRomanNumeralString(romanNumeralDict);
             Console.WriteLine("The result of the conversion: " + romanNumeralOutput);
+            promptForContinueOrQuit();
         }
 
-        public static string constructRomanNumeralString(Dictionary<String, Int32> romanNumeralDict)
+        public static string constructRomanNumeralString(Dictionary<String, Int32> romanNumeralDict) 
         {
             string romanNumeralOutput = "";
-            foreach (KeyValuePair<String, Int32> romanNumeralAndTimes in romanNumeralDict)
-            {
+            foreach (KeyValuePair<String, Int32> romanNumeralAndTimes in romanNumeralDict) {
                 romanNumeralOutput = romanNumeralOutput + addRomanNumeralString(romanNumeralAndTimes.Key, romanNumeralAndTimes.Value);
             }
             return romanNumeralOutput;
         }
 
-        public static string addRomanNumeralString(string romanNumeralCharacter, int timesTheCharacterwillBeAdded)
+        public static string addRomanNumeralString(string romanNumeralCharacter, int timesTheCharacterwillBeAdded) 
         {
             int loopCount = 0;
             string romanNumeralString = "";
-            while (loopCount < timesTheCharacterwillBeAdded)
-            {
+            while (loopCount < timesTheCharacterwillBeAdded){
                 romanNumeralString = romanNumeralString + romanNumeralCharacter;
                 loopCount = loopCount + 1;
             }
             return romanNumeralString;
+        }
+
+        public static void promptForContinueOrQuit()
+        {
+            Console.WriteLine("Retry (R) or quit (Q)");
+            string inputString = Console.ReadLine();
+            if (inputString == "r") askUserForNumberToConvert();
+            if (inputString == "R") askUserForNumberToConvert();
         }
     }
 }
